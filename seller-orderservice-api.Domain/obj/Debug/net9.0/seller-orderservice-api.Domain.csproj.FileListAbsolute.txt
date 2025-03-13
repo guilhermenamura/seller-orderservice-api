@@ -1,0 +1,12 @@
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\bin\Debug\net9.0\seller-orderservice-api.Domain.deps.json
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\bin\Debug\net9.0\seller-orderservice-api.Domain.dll
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\bin\Debug\net9.0\seller-orderservice-api.Domain.pdb
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\obj\Debug\net9.0\seller-orderservice-api.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\obj\Debug\net9.0\seller-orderservice-api.Domain.AssemblyInfoInputs.cache
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\obj\Debug\net9.0\seller-orderservice-api.Domain.AssemblyInfo.cs
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\obj\Debug\net9.0\seller-orderservice-api.Domain.csproj.CoreCompileInputs.cache
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\obj\Debug\net9.0\seller-orderservice-api.Domain.sourcelink.json
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\obj\Debug\net9.0\seller-orderservice-api.Domain.dll
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\obj\Debug\net9.0\refint\seller-orderservice-api.Domain.dll
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\obj\Debug\net9.0\seller-orderservice-api.Domain.pdb
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Domain\obj\Debug\net9.0\ref\seller-orderservice-api.Domain.dll

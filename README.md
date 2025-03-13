@@ -9,6 +9,20 @@ Domain (Entidades e Lógica de Negócios)
 Service (Integrações com bancos de dados e outros sistemas)
 RabbitMQ (Fila) (Integração com RabbitMQ)
 
+seller-orderservice-api.sln
+├── seller-orderservice-api.Domain/
+│   ├── seller-orderservice-api.Domain.csproj
+│   └── ... (Entidades e Regras de Negócio)
+├── seller-orderservice-api.Application/
+│   ├── seller-orderservice-api.Application.csproj
+│   └── ... (Serviços de Aplicação)
+├── seller-orderservice-api.Infrastructure/
+│   ├── seller-orderservice-api.Infrastructure.csproj
+│   └── ... (Integrações como RabbitMQ, Banco de Dados)
+└── seller-orderservice-api.WebAPI/
+    ├── seller-orderservice-api.WebAPI.csproj
+    └── ... (Controladores REST)
+
 
 +---------------------------+       +---------------------------+       +---------------------------+
 |    Web/API (Controller)    | <---> |   Application (Serviços)   | <---> |     Domain (Core)         |

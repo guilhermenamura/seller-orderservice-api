@@ -1,0 +1,16 @@
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\bin\Debug\net9.0\seller-orderservice-api.Application.deps.json
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\bin\Debug\net9.0\seller-orderservice-api.Application.dll
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\bin\Debug\net9.0\seller-orderservice-api.Application.pdb
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\bin\Debug\net9.0\seller-orderservice-api.Domain.dll
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\bin\Debug\net9.0\seller-orderservice-api.Domain.pdb
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\obj\Debug\net9.0\seller-orderservice-api.Application.csproj.AssemblyReference.cache
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\obj\Debug\net9.0\seller-orderservice-api.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\obj\Debug\net9.0\seller-orderservice-api.Application.AssemblyInfoInputs.cache
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\obj\Debug\net9.0\seller-orderservice-api.Application.AssemblyInfo.cs
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\obj\Debug\net9.0\seller-orderservice-api.Application.csproj.CoreCompileInputs.cache
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\obj\Debug\net9.0\seller-orderservice-api.Application.sourcelink.json
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\obj\Debug\net9.0\seller-o.897B937E.Up2Date
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\obj\Debug\net9.0\seller-orderservice-api.Application.dll
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\obj\Debug\net9.0\refint\seller-orderservice-api.Application.dll
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\obj\Debug\net9.0\seller-orderservice-api.Application.pdb
+C:\workspace\ambevtech\seller-orderservice-api\seller-orderservice-api.Application\obj\Debug\net9.0\ref\seller-orderservice-api.Application.dll
