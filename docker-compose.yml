@@ -1,0 +1,54 @@
+version: '3.8'  # Especifica a versão do Docker Compose
+
+services:
+  rabbitmq:
+    image: "rabbitmq:management"
+    container_name: rabbitmq
+    ports:
+      - "15672:15672"  # Porta para a UI de gerenciamento do RabbitMQ
+      - "5672:5672"    # Porta para o broker do RabbitMQ
+    environment:
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - seller_network
+
+  mongo:
+    image: "mongo:latest"
+    container_name: mongo
+    ports:
+      - "27017:27017"  # Porta para o MongoDB
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=example
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - seller_network
+
+  seller-orderservice-api:
+    build: ./  # Caminho para o diretório do seu projeto (onde está o Dockerfile)
+    container_name: seller-orderservice-api
+    ports:
+      - "5013:80"  # Mapeando a porta 5013 do host para a porta 80 do contêiner
+    environment:
+      - MongoDb__ConnectionString=mongodb://root:example@mongo:27017
+      - MongoDb__DatabaseName=ordersDb
+      - RabbitMQ__HostName=rabbitmq
+      - RabbitMQ__UserName=guest
+      - RabbitMQ__Password=guest
+    depends_on:
+      - rabbitmq
+      - mongo
+    networks:
+      - seller_network
+
+volumes:
+  rabbitmq_data:
+  mongo_data:
+
+networks:
+  seller_network:
+    driver: bridge

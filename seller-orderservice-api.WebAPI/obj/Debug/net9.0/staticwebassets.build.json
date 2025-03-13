@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "+0Sq4OTDNPVndCfJlvONZDwrkafKNsPYE92aKtpm4zw=",
+  "Source": "seller-orderservice-api.WebAPI",
+  "BasePath": "_content/seller-orderservice-api.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
