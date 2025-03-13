@@ -1,4 +1,4 @@
-seller-orderservice-api
+#seller-orderservice-api
 Revenda Service (Cadastra revendas).
 
 Estrutura da Arquitetura
