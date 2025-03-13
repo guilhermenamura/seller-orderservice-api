@@ -1,4 +1,4 @@
-#seller-orderservice-api
+# seller-orderservice-api
 Revenda Service (Cadastra revendas).
 
 Estrutura da Arquitetura
@@ -9,6 +9,7 @@ Application (Serviço de Casos de Uso): Contém a lógica de aplicação, orques
 Domain (Entidades e Lógica de Negócios): Contém as entidades e regras de negócio.
 Service (Integrações com bancos de dados e outros sistemas): Responsável pela comunicação com o banco de dados e integrações com sistemas externos, como o RabbitMQ.
 RabbitMQ (Fila): Utilizado para comunicação assíncrona entre microserviços.
+
 Estrutura de Diretórios
 
 ![image](https://github.com/user-attachments/assets/2fde9b29-8610-42eb-897c-831f65099b5f)
