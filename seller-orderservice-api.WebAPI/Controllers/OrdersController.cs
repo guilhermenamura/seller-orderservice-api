@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using seller_orderservice_api.Application.Services; // Importando a interface IOrderService
-using seller_orderservice_api.Application.DTOs; // Para os DTOs
-using seller_orderservice_api.Domain.Entities; // Para as entidades
+using seller_orderservice_api.Application.Services;
+using seller_orderservice_api.Application.DTOs;
+using seller_orderservice_api.Domain.Entities;
 
 namespace seller_orderservice_api.WebAPI.Controllers
 {
@@ -24,20 +24,10 @@ namespace seller_orderservice_api.WebAPI.Controllers
                 return BadRequest("Invalid order data.");
             }
 
+            // Chama a service para criar o pedido e enviar para o RabbitMQ
             var order = _orderService.CreateOrder(orderRequest);
 
-            return CreatedAtAction(nameof(GetOrderById), new { id = order.Id }, order);
-        }
-
-        [HttpGet("{id}")]
-        public IActionResult GetOrderById(int id)
-        {
-            var order = _orderService.GetOrderById(id);
-            if (order == null)
-            {
-                return NotFound();
-            }
-            return Ok(order);
+            return CreatedAtAction(nameof(_orderService.GetOrderById), new { id = order.Id }, order);
         }
     }
 }

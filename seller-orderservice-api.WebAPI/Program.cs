@@ -2,10 +2,20 @@ using Microsoft.OpenApi.Models;
 using seller_orderservice_api.Application.DTOs;
 using seller_orderservice_api.Domain.Entities;
 using seller_orderservice_api.Application.Services;
+using seller_orderservice_api.Infrastructure;
+using seller_orderservice_api.Application.Repositories;
+using seller_orderservice_api.Infrastructure.Repositories;
+using seller_orderservice_api.Infrastructure.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+
 builder.Services.AddScoped<IOrderService, OrderService>();
+
+builder.Services.AddScoped<IRabbitMQService, RabbitMQService>();
+
+builder.Services.Configure<MongoDbSettings>(builder.Configuration.GetSection("MongoDbSettings"));
 
 // Adiciona serviços ao contêiner (como Controllers)
 builder.Services.AddControllers();

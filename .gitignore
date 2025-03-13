@@ -1,0 +1,18 @@
+# Ignore os diretórios bin e obj, que contêm arquivos gerados durante a compilação
+bin/
+obj/
+
+# Ignorar subdiretórios dentro de bin ou obj, como Debug, Release, ou net9.0
+**/bin/
+**/obj/
+
+# Ignorar arquivos e diretórios do Visual Studio
+.vs/
+.vscode/
+
+# Arquivos de configuração do Rider (JetBrains)
+.idea/
+
+# Arquivos gerados pelo build
+*.user
+*.userosscache

@@ -2,6 +2,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\seller-orderservice-api.Domain\seller-orderservice-api.Domain.csproj" />
+    <ProjectReference Include="..\seller-orderservice-api.Infrastructure\seller-orderservice-api.Infrastructure.csproj" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <PropertyGroup>
